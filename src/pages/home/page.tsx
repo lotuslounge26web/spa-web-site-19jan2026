@@ -230,13 +230,13 @@ export default function HomePage() {
         <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
           A Sky Sanctuary
         </div>
-        <div
+      <div
   className="
     text-[#F5F1E8]/90
     font-serif
     font-light
     tracking-wide
-    text-[80%]
+    text-[92%]
   "
   style={{ textShadow: "0 2px 8px rgba(0,0,0,0.3)" }}
 >
@@ -258,7 +258,7 @@ export default function HomePage() {
     font-serif
     font-light
     tracking-wide
-    text-[80%]
+    text-[92%]
   "
   style={{ textShadow: "0 2px 8px rgba(0,0,0,0.25)" }}
 >
@@ -272,6 +272,7 @@ export default function HomePage() {
     2
   </span>
 </div>
+  
 
       </h1>
     </div>
