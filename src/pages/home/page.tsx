@@ -234,7 +234,8 @@ export default function HomePage() {
           className="text-[#F5F1E8]/90 font-serif font-light text-xl sm:text-2xl lg:text-3xl tracking-wide"
           style={{ textShadow: "0 2px 8px rgba(0,0,0,0.3)" }}
         >
-          Granbell Hotel, Level 10
+         Granbell Hotel, Level <span className="font-sans font-medium tracking-normal">10</span>
+ 
         </div>
       </h1>
     </div>
@@ -551,7 +552,17 @@ export default function HomePage() {
                 <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
                   LOTUS LOUNGE &amp; SPA
                 </h3>
-                <p className="text-[#D2691E] text-base sm:text-lg mb-2">Granbell Hotel</p>
+               <p className="text-[#D2691E] text-base sm:text-lg mb-2">
+  <a
+    href="https://maps.app.goo.gl/RoxK3x14M6X3g2R18"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline underline-offset-4 hover:opacity-80"
+  >
+    Granbell Hotel
+  </a>
+</p>
+
                 <p className="text-[#4A4A4A] font-light text-sm mb-4 sm:mb-6">Colombo, Sri Lanka</p>
                 <p className="text-[#4A4A4A] text-sm leading-relaxed">
                   A hotel-integrated urban spa overlooking the Indian Ocean. Located on the 10th floor,
@@ -573,12 +584,16 @@ export default function HomePage() {
                 <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
                   LOTUS LOUNGE &amp; SPA
                 </h3>
-                <p className="text-[#D2691E] text-base sm:text-lg mb-2">Le Grand Hotel</p>
-                <p className="text-[#4A4A4A] font-light text-sm mb-4 sm:mb-6">Galle, Sri Lanka</p>
-                <p className="text-[#4A4A4A] text-sm leading-relaxed">
-                  Located within Le Grand Hotel in a calm resort-style setting. Surrounding tropical beauty,
-                  this location provides a serene retreat with the same refined philosophy.
-                </p>
+                <p className="text-[#D2691E] text-base sm:text-lg mb-2">
+  <a
+    href="https://maps.app.goo.gl/zUgjYcVbpPV1c66t9" 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline underline-offset-4 hover:opacity-80"
+  >
+    Le Grand Hotel
+  </a>
+</p>
               </div>
             </div>
           </div>
