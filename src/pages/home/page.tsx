@@ -155,7 +155,7 @@ export default function HomePage() {
         </div>
       </nav>
 
-     {/* Hero Section */}
+    {/* Hero Section */}
 <section
   id="top"
   className="relative min-h-screen w-full overflow-hidden flex items-center justify-center"
@@ -165,15 +165,14 @@ export default function HomePage() {
     src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/b6520b651a3b2876af44898db0cb56bd.png"
     alt="Ocean view from spa"
     className="
-  absolute inset-0
-  w-full h-full
-  object-cover
-  object-[50%_22%]
-  sm:object-[50%_40%]
-  transform scale-110 sm:scale-100
-  origin-center
-"
-
+      absolute inset-0
+      w-full h-full
+      object-cover
+      object-[50%_22%]
+      sm:object-[50%_40%]
+      transform scale-110 sm:scale-100
+      origin-center
+    "
   />
 
   {/* Dark overlay */}
@@ -182,122 +181,95 @@ export default function HomePage() {
   {/* Hero Content */}
   <div className="relative z-10 text-center px-6 flex flex-col items-center justify-center h-full pt-[80px]">
 
-    {/* Brand Package（薄プレート完全削除） */}
-    <div
-      className="
-        flex flex-col items-center
-        mb-6 sm:mb-8
-        transform -translate-y-[58px] sm:translate-y-0
-      "
-    >
-      {/* Logo Mark */}
+    {/* Brand Package */}
+    <div className="flex flex-col items-center mb-6 sm:mb-8 transform -translate-y-[58px] sm:translate-y-0">
       <img
         src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/8400fe8e1f29c1b11a99952188d6a36a.png"
         alt="Lotus Lounge & Spa"
         className="h-[58px] sm:h-[84px] lg:h-[92px] w-auto mb-3 opacity-95"
       />
 
-      {/* Brand Name */}
-     <div
-  className="font-serif font-medium tracking-[0.25em] mb-1 text-[12px] sm:text-[16px]"
-  style={{
-    color: "#c7a04b",
-    opacity: 1,
-    textShadow: "0 1px 16px rgba(0,0,0,0.38)",
-  }}
->
-  LOTUS LOUNGE & SPA
-</div>
+      <div
+        className="font-serif font-medium tracking-[0.25em] mb-1 text-[12px] sm:text-[16px]"
+        style={{
+          color: "#c7a04b",
+          textShadow: "0 1px 16px rgba(0,0,0,0.38)",
+        }}
+      >
+        LOTUS LOUNGE & SPA
+      </div>
 
-
-      {/* Tagline */}
-    <div
-  className="font-serif font-normal tracking-[0.3em] text-[10px] sm:text-[13px]"
-  style={{
-    color: "#c7a04b",
-    opacity: 1,
-    textShadow: "0 1px 16px rgba(0,0,0,0.34)",
-  }}
->
-  Beauty Thru Asia
-</div>
-  
+      <div
+        className="font-serif font-normal tracking-[0.3em] text-[10px] sm:text-[13px]"
+        style={{
+          color: "#c7a04b",
+          textShadow: "0 1px 16px rgba(0,0,0,0.34)",
+        }}
+      >
+        Beauty Thru Asia
+      </div>
     </div>
 
-    {/* Main Headline（モバイルのみ上へ） */}
+    {/* Headline */}
     <div className="transform -translate-y-[58px] sm:translate-y-0">
       <h1 className="mb-4 text-center">
         <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
           A Sky Sanctuary
         </div>
-     <div
-  className="
-    font-serif font-light tracking-wide
-    text-white
-    text-[115%] sm:text-[100%]
-  "
-  style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
->
-  Granbell Hotel, Level{" "}
-  <span
-    className="inline-block scale-[0.9] origin-left"
-    style={{
-      fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif',
-    }}
-  >
-    10
-  </span>
-</div>
 
-<div
-  className="
-    mt-1
-    font-serif font-light tracking-wide
-    text-white
-    text-[115%] sm:text-[100%]
-  "
-  style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
->
-  Le Grand Galle, Level{" "}
-  <span
-    className="inline-block scale-[0.9] origin-left"
-    style={{
-      fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif',
-    }}
-  >
-    2
-  </span>
-</div>
+        <div
+          className="font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
+          style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
+        >
+          Granbell Hotel, Level{" "}
+          <span
+            className="inline-block scale-[0.9] origin-left"
+            style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
+          >
+            10
+          </span>
+        </div>
 
+        <div
+          className="mt-1 font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
+          style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
+        >
+          Le Grand Galle, Level{" "}
+          <span
+            className="inline-block scale-[0.9] origin-left"
+            style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
+          >
+            2
+          </span>
+        </div>
+      </h1>
     </div>
 
     {/* CTA */}
     <button
       onClick={() => scrollToSection("menu")}
-  className="
-  mt-6 sm:mt-10
-  bg-[#C4A57B]/25
-  text-white
-  px-5 sm:px-10 py-2 sm:py-3
-  rounded-full
-  text-xs sm:text-base
-  font-medium tracking-wide
-  hover:bg-[#C4A57B]/60
-  transition-all duration-300
-  inline-flex items-center gap-3
-  shadow-sm
-  whitespace-nowrap
-  cursor-pointer
-"
-   
-
- 
+      className="
+        mt-6 sm:mt-10
+        bg-[#C4A57B]/25
+        text-white
+        px-5 sm:px-10 py-2 sm:py-3
+        rounded-full
+        text-xs sm:text-base
+        font-medium tracking-wide
+        hover:bg-[#C4A57B]/60
+        transition-all duration-300
+        inline-flex items-center gap-3
+        shadow-sm
+        whitespace-nowrap
+        cursor-pointer
+      "
     >
       View Treatments
     </button>
 
   </div>
 </section>
+
 
 
  {/* Concept Section */}
