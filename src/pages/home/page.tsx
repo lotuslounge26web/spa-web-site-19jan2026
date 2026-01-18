@@ -342,7 +342,8 @@ export default function HomePage() {
 
       {/* 画像側（変更なし） */}
       <div className="w-full lg:w-3/5 relative mt-8 lg:mt-0">
-        <div className="relative w-full max-w-md mx-auto lg:max-w-none lg:h-[520px]">
+       <div className="relative w-full max-w-md mx-auto lg:max-w-none">
+
           <div
             className="
               relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl
