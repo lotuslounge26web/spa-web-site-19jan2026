@@ -232,13 +232,11 @@ export default function HomePage() {
         </div>
      <div
   className="
-    text-[#F5F1E8]/90
-    font-serif
-    font-light
-    tracking-wide
-    text-[106%]
+    font-serif font-light tracking-wide
+    text-white
+    text-[115%] sm:text-[100%]
   "
-  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.3)" }}
+  style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
 >
   Granbell Hotel, Level{" "}
   <span
@@ -254,13 +252,11 @@ export default function HomePage() {
 <div
   className="
     mt-1
-    text-[#F5F1E8]/80
-    font-serif
-    font-light
-    tracking-wide
-    text-[106%]
+    font-serif font-light tracking-wide
+    text-white
+    text-[115%] sm:text-[100%]
   "
-  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.25)" }}
+  style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
 >
   Le Grand Galle, Level{" "}
   <span
@@ -273,9 +269,6 @@ export default function HomePage() {
   </span>
 </div>
 
-  
-
-      </h1>
     </div>
 
     {/* CTA */}
