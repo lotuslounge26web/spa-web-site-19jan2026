@@ -210,45 +210,59 @@ export default function HomePage() {
       </div>
     </div>
 
-    {/* Headline */}
-    <div className="transform -translate-y-[58px] sm:translate-y-0">
-  <h1 className="mb-4 text-center">
+   {/* Main Headline（モバイルのみ上へ） */}
+<div className="transform -translate-y-[58px] sm:translate-y-0 text-center mb-4">
+  {/* タイトル */}
+  <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
+    A Sky Sanctuary
+  </div>
 
-    <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
-      A Sky Sanctuary
-    </div>
-
-    <div
-      className="font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
-      style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
+  {/* 2行（PCは元サイズ、色は純白） */}
+  <div
+    className="
+      text-white
+      font-serif font-light tracking-wide
+      text-xl sm:text-2xl lg:text-3xl
+    "
+    style={{ textShadow: "0 2px 10px rgba(0,0,0,0.38)" }}
+  >
+    Granbell Hotel, Level{" "}
+    <span
+      className="inline-block origin-left"
+      style={{
+        fontFamily: '"Noto Serif JP","Source Han Serif JP",serif',
+        transform: "scale(0.9)",
+      }}
     >
-      Granbell Hotel, Level{" "}
-      <span
-        className="inline-block scale-[0.9] origin-left"
-        style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
-      >
-        10
-      </span>
-    </div>
+      10
+    </span>
+  </div>
 
-    <div
-      className="mt-1 font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
-      style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
+  <div
+    className="
+      mt-1
+      text-white
+      font-serif font-light tracking-wide
+      text-xl sm:text-2xl lg:text-3xl
+    "
+    style={{ textShadow: "0 2px 10px rgba(0,0,0,0.34)" }}
+  >
+    Le Grand Galle, Level{" "}
+    <span
+      className="inline-block origin-left"
+      style={{
+        fontFamily: '"Noto Serif JP","Source Han Serif JP",serif',
+        transform: "scale(0.9)",
+      }}
     >
-      Le Grand Galle, Level{" "}
-      <span
-        className="inline-block scale-[0.9] origin-left"
-        style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
-      >
-        2
-      </span>
-    </div>
-
-  </h1>
+      2
+    </span>
+  </div>
 </div>
 
 
-    {/* CTA */}
+
+       {/* CTA */}
     <button
       onClick={() => scrollToSection("menu")}
       className="
@@ -272,6 +286,7 @@ export default function HomePage() {
 
   </div>
 </section>
+ 
 
 
 
@@ -854,6 +869,7 @@ export default function HomePage() {
                   </div>
 
                   <p>
+                                      <p>
                     Thank you for helping us maintain a serene and respectful environment for all our
                     guests.
                   </p>
@@ -874,6 +890,9 @@ export default function HomePage() {
           </div>
         </div>
       )}
+
     </div>
   );
-}
+};
+
+export default Home;
