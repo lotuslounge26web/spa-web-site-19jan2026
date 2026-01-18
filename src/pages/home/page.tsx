@@ -212,38 +212,41 @@ export default function HomePage() {
 
     {/* Headline */}
     <div className="transform -translate-y-[58px] sm:translate-y-0">
-      <h1 className="mb-4 text-center">
-        <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
-          A Sky Sanctuary
-        </div>
+  <h1 className="mb-4 text-center">
 
-        <div
-          className="font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
-          style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
-        >
-          Granbell Hotel, Level{" "}
-          <span
-            className="inline-block scale-[0.9] origin-left"
-            style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
-          >
-            10
-          </span>
-        </div>
-
-        <div
-          className="mt-1 font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
-          style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
-        >
-          Le Grand Galle, Level{" "}
-          <span
-            className="inline-block scale-[0.9] origin-left"
-            style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
-          >
-            2
-          </span>
-        </div>
-      </h1>
+    <div className="text-[#F5F1E8] font-serif font-light text-4xl sm:text-5xl lg:text-7xl mb-4 sm:mb-6 tracking-wide leading-tight">
+      A Sky Sanctuary
     </div>
+
+    <div
+      className="font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
+      style={{ textShadow: "0 2px 10px rgba(0,0,0,0.35)" }}
+    >
+      Granbell Hotel, Level{" "}
+      <span
+        className="inline-block scale-[0.9] origin-left"
+        style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
+      >
+        10
+      </span>
+    </div>
+
+    <div
+      className="mt-1 font-serif font-light tracking-wide text-white text-[115%] sm:text-[100%]"
+      style={{ textShadow: "0 2px 10px rgba(0,0,0,0.3)" }}
+    >
+      Le Grand Galle, Level{" "}
+      <span
+        className="inline-block scale-[0.9] origin-left"
+        style={{ fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif' }}
+      >
+        2
+      </span>
+    </div>
+
+  </h1>
+</div>
+
 
     {/* CTA */}
     <button
