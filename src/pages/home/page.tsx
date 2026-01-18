@@ -231,12 +231,48 @@ export default function HomePage() {
           A Sky Sanctuary
         </div>
         <div
-          className="text-[#F5F1E8]/90 font-serif font-light text-xl sm:text-2xl lg:text-3xl tracking-wide"
-          style={{ textShadow: "0 2px 8px rgba(0,0,0,0.3)" }}
-        >
-         Granbell Hotel, Level <span className="font-sans font-medium tracking-normal">10</span>
- 
-        </div>
+  className="
+    text-[#F5F1E8]/90
+    font-serif
+    font-light
+    tracking-wide
+    text-[80%]
+  "
+  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.3)" }}
+>
+  Granbell Hotel, Level{" "}
+  <span
+    className="inline-block scale-[0.9] origin-left"
+    style={{
+      fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif',
+    }}
+  >
+    10
+  </span>
+</div>
+
+<div
+  className="
+    mt-1
+    text-[#F5F1E8]/75
+    font-serif
+    font-light
+    tracking-wide
+    text-[80%]
+  "
+  style={{ textShadow: "0 2px 8px rgba(0,0,0,0.25)" }}
+>
+  Le Grand Galle, Level{" "}
+  <span
+    className="inline-block scale-[0.9] origin-left"
+    style={{
+      fontFamily: '"Noto Serif JP", "Source Han Serif JP", serif',
+    }}
+  >
+    2
+  </span>
+</div>
+
       </h1>
     </div>
 
