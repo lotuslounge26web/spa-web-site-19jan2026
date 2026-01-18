@@ -868,12 +868,12 @@ export default function HomePage() {
                     </p>
                   </div>
 
-                  <p>
-                                      <p>
+                                  <p>
                     Thank you for helping us maintain a serene and respectful environment for all our
                     guests.
                   </p>
                 </>
+  
               )}
             </div>
 
