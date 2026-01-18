@@ -524,81 +524,99 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Locations Section */}
-      <section
-        id="locations"
-        className="py-16 sm:py-24 lg:py-32 bg-gradient-to-r from-[#F5F1E8] to-[#F0E5D8]"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-8">
-          <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-[#3E2723] font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">
-              Our Locations
-            </h2>
-            <p className="text-[#8B7355] font-light italic text-lg sm:text-xl">
-              Two Sanctuaries, One Philosophy
-            </p>
-          </div>
+     {/* Locations Section */}
+<section
+  id="locations"
+  className="py-16 sm:py-24 lg:py-32 bg-gradient-to-r from-[#F5F1E8] to-[#F0E5D8]"
+>
+  <div className="max-w-7xl mx-auto px-4 sm:px-8">
+    <div className="text-center mb-12 sm:mb-16">
+      <h2 className="text-[#3E2723] font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">
+        Our Locations
+      </h2>
+      <p className="text-[#8B7355] font-light italic text-lg sm:text-xl">
+        Two Sanctuaries, One Philosophy
+      </p>
+    </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
-            <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              <div className="w-full h-56 sm:h-72">
-                <img
-                  src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/39dd14c388b84df9bedccff62aae33a2.png"
-                  alt="Granbell Hotel Colombo"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-              <div className="p-6 sm:p-10">
-                <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
-                  LOTUS LOUNGE &amp; SPA
-                </h3>
-               <p className="text-[#D2691E] text-base sm:text-lg mb-2">
-  <a
-    href="https://maps.app.goo.gl/RoxK3x14M6X3g2R18"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="underline underline-offset-4 hover:opacity-80"
-  >
-    Granbell Hotel
-  </a>
-</p>
-
-                <p className="text-[#4A4A4A] font-light text-sm mb-4 sm:mb-6">Colombo, Sri Lanka</p>
-                <p className="text-[#4A4A4A] text-sm leading-relaxed">
-                  A hotel-integrated urban spa overlooking the Indian Ocean. Located on the 10th floor,
-                  this sanctuary offers breathtaking sunset views and a peaceful escape from the vibrant
-                  city below.
-                </p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              <div className="w-full h-56 sm:h-72">
-                <img
-                  src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/756dbd30e1ad3c0a954eadd9a827b5c4.png"
-                  alt="Le Grand Hotel Galle"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-              <div className="p-6 sm:p-10">
-                <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
-                  LOTUS LOUNGE &amp; SPA
-                </h3>
-                <p className="text-[#D2691E] text-base sm:text-lg mb-2">
-  <a
-    href="https://maps.app.goo.gl/zUgjYcVbpPV1c66t9" 
-    target="_blank"
-    rel="noopener noreferrer"
-    className="underline underline-offset-4 hover:opacity-80"
-  >
-    Le Grand Hotel
-  </a>
-</p>
-              </div>
-            </div>
-          </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12">
+      {/* Colombo */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
+        <div className="w-full h-56 sm:h-72">
+          <img
+            src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/39dd14c388b84df9bedccff62aae33a2.png"
+            alt="Granbell Hotel Colombo"
+            className="w-full h-full object-cover object-top"
+          />
         </div>
-      </section>
+
+        <div className="p-6 sm:p-10">
+          <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
+            LOTUS LOUNGE &amp; SPA
+          </h3>
+
+          <p className="text-[#D2691E] text-base sm:text-lg mb-2">
+            <a
+              href="https://maps.app.goo.gl/RoxK3x14M6X3g2R18"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-80"
+            >
+              Granbell Hotel
+            </a>
+          </p>
+
+          <p className="text-[#4A4A4A] font-light text-sm mb-4 sm:mb-6">
+            Colombo, Sri Lanka
+          </p>
+
+          <p className="text-[#4A4A4A] text-sm leading-relaxed">
+            A hotel-integrated urban spa overlooking the Indian Ocean. Located on the 10th floor, this
+            sanctuary offers breathtaking sunset views and a peaceful escape from the vibrant city below.
+          </p>
+        </div>
+      </div>
+
+      {/* Galle */}
+      <div className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-shadow duration-300">
+        <div className="w-full h-56 sm:h-72">
+          <img
+            src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/756dbd30e1ad3c0a954eadd9a827b5c4.png"
+            alt="Le Grand Hotel Galle"
+            className="w-full h-full object-cover object-top"
+          />
+        </div>
+
+        <div className="p-6 sm:p-10">
+          <h3 className="text-[#3E2723] font-bold text-xl sm:text-2xl tracking-wide mb-2">
+            LOTUS LOUNGE &amp; SPA
+          </h3>
+
+          <p className="text-[#D2691E] text-base sm:text-lg mb-2">
+            <a
+              href="https://maps.app.goo.gl/zUgjYcVbpPV1c66t9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4 hover:opacity-80"
+            >
+              Le Grand Hotel
+            </a>
+          </p>
+
+          <p className="text-[#4A4A4A] font-light text-sm mb-4 sm:mb-6">
+            Galle, Sri Lanka
+          </p>
+
+          <p className="text-[#4A4A4A] text-sm leading-relaxed">
+            Located within Le Grand Hotel in a calm resort-style setting. Surrounding tropical beauty,
+            this location provides a serene retreat with the same refined philosophy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="bg-gradient-to-b from-[#3E2723] to-[#2C1810]">
