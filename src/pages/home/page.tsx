@@ -330,37 +330,37 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* 画像側（変更なし） */}
-      <div className="w-full lg:w-3/5 relative mt-8 lg:mt-0">
-       <div className="relative w-full max-w-md mx-auto lg:max-w-none lg:h-[520px]">
+     {/* 画像側（iPad横で重ならないように：lg → xl） */}
+<div className="w-full xl:w-3/5 relative mt-8 xl:mt-0">
+  <div className="relative w-full max-w-md mx-auto xl:max-w-none xl:h-[520px]">
+    <div
+      className="
+        relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl
+        xl:absolute xl:top-0 xl:left-0 xl:w-80
+      "
+    >
+      <img
+        src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/130d7dc66681dac82276419d56141ced.png"
+        alt="Relaxation Lounge"
+        className="w-full h-full object-cover object-center"
+      />
+    </div>
 
-          <div
-            className="
-              relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl
-              lg:absolute lg:top-0 lg:left-0 lg:w-80
-            "
-          >
-            <img
-              src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/130d7dc66681dac82276419d56141ced.png"
-              alt="Relaxation Lounge"
-              className="w-full h-full object-cover object-center"
-            />
-          </div>
+    <div
+      className="
+        relative mt-6 w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl
+        xl:absolute xl:bottom-0 xl:right-0 xl:mt-0 xl:w-80
+      "
+    >
+      <img
+        src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/385a66fe0b285bd5fc7caf8c85bdfdbc.png"
+        alt="Ocean View"
+        className="w-full h-full object-cover object-bottom"
+      />
+    </div>
+  </div>
+</div>
 
-          <div
-            className="
-              relative mt-6 w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-xl
-              lg:absolute lg:bottom-0 lg:right-0 lg:mt-0 lg:w-80
-            "
-          >
-            <img
-              src="https://static.readdy.ai/image/950ece443f523582842352d95e566920/385a66fe0b285bd5fc7caf8c85bdfdbc.png"
-              alt="Ocean View"
-              className="w-full h-full object-cover object-bottom"
-            />
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
